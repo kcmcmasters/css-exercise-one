@@ -30,10 +30,23 @@ h3 {
   font-size: 1.3em;
 }
 
-/*** overwritten by 3 style tags in html file ***/
+/*** defines all but the last 3 elements ***/
 .element {
   background-color: green;
   height: 100px;
   margin: 10px 0;
   width: 100%;
+}
+
+/*** defines 3 new element classes with different background colors ***/
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.pink {
+  background-color: pink;
 }
